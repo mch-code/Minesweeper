@@ -1,5 +1,11 @@
 {
     "compilerOptions": {
-      "target": "es2015"
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "es6",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "strictNullChecks": true
     }
-  }
+}

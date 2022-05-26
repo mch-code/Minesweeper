@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/Minesweeper.css">
+</head>
+<body class="mainbody">
+    <div class="topnav">
+        <a>
+            <select name="difficulty" id="difficulty-select" onchange="onPlayerDifSelect();">
+                <div class="dropdownContent">
+                    <option value="0">Easy</option>
+                    <option selected="selected" value="1">Medium</option>
+                    <option value="2">Hard</option>
+                    <option value="3">Extreme</option>
+                    <option value="4">Legendary</option>
+                </div>
+            </select>
+        </a>
+        <a id="timer">00:00</a>
+        <a>
+            <button id="restart" onclick="refreshPage();">Restart</button>
+        </a>
+    </div>
+    <div id="canvas"></div>
+    <div class="bottomCanvas">
+        <div class="bottomnav">
+            <a id="flagCounter"></a>
+            <a id="score">Score: 0</a>
+            <a id="livesCounter">Lives</a>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
