@@ -12,4 +12,4 @@ Highlights of this project:
 ![image](https://user-images.githubusercontent.com/105577924/171097568-d6bb16ef-98ed-4b80-a6e2-99af165beaa1.png)
 
 
-![image](https://user-images.githubusercontent.com/105577924/171329768-b6fe0634-276a-49ce-99e8-855d1057d12a.png)
+![image](https://user-images.githubusercontent.com/105577924/171329965-f49cf741-764a-4571-85d5-f66393e32d63.png)
